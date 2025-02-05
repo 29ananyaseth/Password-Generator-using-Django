@@ -82,28 +82,50 @@ Open your browser and go to http://127.0.0.1:8000/.
 Project Structure
 
 password-generator/
-├── FirstProject/                  # Django project folder
+├── FirstProject/      # Django project folder
+
 │   ├── __init__.py
+
 │   ├── settings.py                # Project settings
+
 │   ├── urls.py                    # Main URL configuration
+
 │   ├── asgi.py
+
 │   └── wsgi.py
+
 ├── passgenerator/                 # Django app folder
+
 │   ├── migrations/
+
 │   ├── __init__.py
+
 │   ├── admin.py
+
 │   ├── apps.py
+
 │   ├── models.py
+
 │   ├── tests.py
+
 │   ├── views.py                   # Password generation logic
+
 │   └── templates/                 # HTML templates
+
 │       ├── passgenerator/
+
 │           ├── home.html          # Home page template
+
 │           └── password.html      # Password display template
+
 ├── manage.py                      # Django management script
+
 ├── db.sqlite3                     # SQLite database (development)
+
 ├── requirements.txt               # Project dependencies
+
 └── README.md                      # Project documentation
+
 
 -------------------------------------------------------------------------------------
 
