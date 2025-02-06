@@ -1,11 +1,12 @@
 Password Generator
+-----------------
 
 A simple and customizable password generator built with Django. This web application allows users to generate secure passwords based on their preferences, such as length and character types (uppercase, lowercase, digits, and special characters).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Features
-
+-----
 Customizable Password Length: Users can specify the length of the password (default is 12 characters).
 
 Character Type Selection: Users can choose which types of characters to include in the password:
@@ -25,7 +26,7 @@ User-Friendly Interface: Simple and intuitive web interface for generating passw
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Screenshots
-
+-----------
 
 Home Page
 ![Screenshot 2025-01-31 172647](https://github.com/user-attachments/assets/616be390-05df-4c90-885f-827564d55e25)
@@ -37,18 +38,18 @@ Generated Password
 -----------------------------------------------------------------------------------------
 
 Installation
-
+------
 
 Follow these steps to set up the project locally:
 
-Prerequisites:
+=> Prerequisites:
 
 
 Python 3.x & 
 Django 4.x
 
 
-Steps
+=> Steps
 
 1-Clone the Repository:
 
@@ -77,9 +78,11 @@ python manage.py runserver
 6-Access the Application:
 
 Open your browser and go to http://127.0.0.1:8000/.
+
 ---------------------------------------------------------------------------------------
 
 Project Structure
+------------------
 
 password-generator/
 ├── FirstProject/      # Django project folder
@@ -131,7 +134,7 @@ password-generator/
 
 
 Usage
-
+----------
 1-Open the application in your browser.
 
 2-On the home page, specify the desired password length and select the character types you want to include.
@@ -143,7 +146,7 @@ Usage
 ------------------------------------------------------------------------
 
 Acknowledgments
-
+-----------------
 
 Built with Django.
 
